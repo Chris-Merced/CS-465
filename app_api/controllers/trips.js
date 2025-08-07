@@ -38,7 +38,8 @@ return res
 // Uncomment the following line to show results of
 operation
 // on the console
-// console.log(q);
+console.log(req.body.name)
+console.log(q);
 };
 
 const tripsAddTrip = async (req, res)=>{
