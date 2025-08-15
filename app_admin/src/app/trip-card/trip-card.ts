@@ -27,6 +27,7 @@ export class TripCard implements OnInit {
 
   public isLoggedIn()
 {
+  console.log(this.authenticationService.isLoggedIn())
 return this.authenticationService.isLoggedIn();
 }
 }
